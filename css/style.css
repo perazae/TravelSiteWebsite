@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #ECE2D0!important;
+    color: #ECE2D0!important;
+}
+body{
+    background-color: #4B403A!important;
+    color: #FAF3DD!important;
+}
+select {
+    background-color: #B79CED; /* Background color */
+    color: #ECE2D0; /* Text color */
+    padding: 8px; /* Padding for better appearance */
+    border: none; /* Remove the default border */
+    border-radius: 4px; /* Add some border radius for a rounded appearance */
+}
+
+
+
+
+
