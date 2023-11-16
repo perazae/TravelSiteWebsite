@@ -1,4 +1,5 @@
 const parkTypesArray = [
+    "All",
     "National Park",
     "National Monument",
     "Recreation Area",
