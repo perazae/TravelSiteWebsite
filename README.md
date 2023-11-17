@@ -16,6 +16,6 @@ Classmate advice/guidance and contribtions
 Remsey Mailjard: https://www.linkedin.com/in/remseymailjard/?originalSubdomain=nl
 
 What the Website Should Look Like:
-![Alt Text](images\Homepage.PNG)
-![Alt Text](images\NationalParks.PNG)
-![Alt Text](images\Mountains.PNG)
+![Alt Text](Homepage.PNG)
+![Alt Text](NationalParks.PNG)
+![Alt Text](Mountains.PNG)
