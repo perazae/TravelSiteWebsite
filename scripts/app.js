@@ -7,7 +7,6 @@ window.onload = () => {
     // addMountainsToDropdown();
     addLocationsToDropdown();
     addNationalParksToDropdown();
-    displayInfo();
 };
 
 //!Adds the states/territories and park types to the dropdown
@@ -69,23 +68,22 @@ function displayInfo() {
     if (SortParkType.length > 0) {
         SortParkType.forEach(park => {
             printInfoOnWebsite.innerHTML +=
-                `<div class="row">
-            <div class="col-sm-5">
+                `
+            
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title"><p>${park.LocationName}, ${park.City}, ${park.State}</p></h5>
-                  <p class="card-text">${park.City}, ${park.State}</p>
-                  <p class="card-text">${park.Fax}</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">Phone Number:${park.Phone}, Fax: ${park.Fax}</p>
+                  <p class="card-text">${park.Address}, ${park.ZipCode}</p>
+                  <p class="card-text">${park.Latitude}, ${park.Longitude}</p>
+                  <a href= ${park.Visit} class="btn btn-primary">Visit Website</a>
                 </div>
-              </div>
-            </div>`;
+                </div>
+              `;
         });
     } else {
         // letting user know there isn't any parks in location given
-        alert("No park has been found in your selected location.");
+        alert("Nothing has been found in your selection");
     }
 
 }
-// let message = `${filteredParks.length} National Parks in ${stateValue}</h1><br><br>`;
-//         message += filteredParks.map(parkTemplate).join("");

@@ -2,52 +2,70 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Project Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Project Template</title>
 
-    <!-- Bootstrap CSS v5.3.0 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap CSS v5.3.0 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Customs CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+  <!-- Customs CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--To prevent image from appearing on the screen, but continue to on other html pages-->
+  <style>
+    body {
+      background: none;
+    }
+  </style>
 </head>
 
 <body>
-    <!--Start of my Header-->
-    <div class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg custom-navbar"
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">Home</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="nationalpark.html">National Parks</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="mountains.html">Mountains</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
+  <main>
+    <div class="bgVideo">
+      <video autoplay loop id="myVideo">
+        <source src="images\home.mp4" type="video/mp4">
+      </video>
     </div>
+    <!--Start of my Header-->
+
+    <header>
+      <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nationalpark.html">National Parks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="mountains.html">Mountains</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <!--End of Header-->
-    <main>
-        <h1>Text</h1>
-        <h2></h2>
-        <h3></h3>
-    </main>
+    <div class="textOverlay">
+      <h1 class="mb-3">Explore The United States</h1>
+      <h2 class="mb-4">Discover Your Next Travel Destination</h2>
+      <p class="mb-2">Browse a Plethora of National Parks and Mountains:</p>
+      <p class="mb-2"><a href="nationalpark.html" class="styleBtn btn btn-primary mr-2">National Parks</a></p>
+      <p><a href="mountains.html" class="styleBtn btn btn-primary">Mountains</a></p>
+    </div>
 
     <footer>
-        Main Footer
+
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 
     <script src="scripts/app.js"></script>
 </body>

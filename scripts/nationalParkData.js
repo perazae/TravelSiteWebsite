@@ -274,7 +274,7 @@ const nationalParksArray = [
     City: "Sharpsburg",
     State: "Maryland",
     ZipCode: 21782,
-    Phone: 0,
+    Phone: "N/A",
     Fax: "(301) 432-4590",
     Visit: "https://www.nps.gov/anti/index.htm",
     Latitude: 39.4798039,
